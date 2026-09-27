@@ -1,74 +1,97 @@
 # 一笔江湖
 
-Unity 3D 武侠探索与鼠标连穴施法作品原型，结合回合制技能构筑、任务成长和独立服务端 1v1。使用 Unity 2022.3.62f3c1、C#、UGUI 和 GameFramework 的 Procedure / Fsm / Event 模块。
+一款使用 **Unity 和 C#** 开发的 **3D 武侠回合制游戏 Demo**，包含场景探索、任务成长、技能构筑和双人 1v1 对战。
 
-> 本仓库提供完整精简 Unity 工程。无需 Unity 的 Windows 试玩包见下方下载。实现与测试有 AI 辅助；当前为作品原型，尚未完成发行级验收。
+核心玩法是**用鼠标连穴施法**：选择招式后，按顺序画出穴位路线，系统根据轨迹形状、连穴顺序和路径长度评分，再将评分用于技能结算。玩家可以在练功场熟悉路线，也可以进入擂台进行回合制战斗。
 
-## 下载试玩
+**[下载 Windows 试玩](https://github.com/lovernook/yibi-jianghu/releases/latest/download/YibiJianghu-Windows-x64.zip)** · **[下载完整 Unity 工程](https://github.com/lovernook/yibi-jianghu/archive/refs/heads/main.zip)**
 
-**[下载 Windows 64 位试玩包](https://github.com/lovernook/yibi-jianghu/releases/latest/download/YibiJianghu-Windows-x64.zip)** · [版本说明与全部下载](https://github.com/lovernook/yibi-jianghu/releases/latest)
+## 游戏内容
 
-解压后运行 `YibiJianghu.exe`，请保留所有相邻文件夹。无需安装 Unity 或 .NET。单人探索与练功直接进入；同机双人联机可运行 `Start-Local-1v1.cmd`，按说明在两端创建/加入房间。
+- **江湖探索**：在 3D 场景中移动、与 NPC 交谈、开启宝匣，完成任务并获取奖励；支持任务手札、行囊和本地存档。
+- **连穴练功**：六条穴位路线，提供轨迹示范、绘制回放和分项评分，帮助玩家熟悉不同招式。
+- **回合战斗**：选择技能搭配，结合画线评分、状态效果与回合顺序进行战斗。
+- **双人论武**：独立服务端管理房间和战斗状态，两个客户端可创建、加入房间，完成对局、再战和更换构筑。
 
-源码：点击 **Code → Download ZIP** 或 `git clone`，用 Unity Hub 打开 `一笔江湖/`，版本 **2022.3.62f3c1**。首次打开需联网下载 Unity 官方包并导入资源；随后打开 `Assets/_Game/Scenes/MainMenu.unity`。仓库保留 `.meta`、场景、Prefab、配置及全部必要依赖，排除 Library、Temp、历史构建和大批未使用素材。
+![场景探索](Screenshots/Exploration.png)
+![连穴施法](Screenshots/MeridianPractice.png)
+![回合制战斗](Screenshots/Battle.png)
+![主菜单](Screenshots/MainMenu.png)
 
-## 实际画面
+## 技术实现
 
-![主菜单](Screenshots/StageD-mainmenu-final.png)
-![探索](Screenshots/StageD-valley-final.png)
-![连穴练功](Screenshots/StageD-practice-contrast-verified.png)
-![回合战斗](Screenshots/StageD-arena.png)
-
-## 已实现
-
-- 3D 探索：行走、奔跑、交谈、宝匣、任务手札、行囊与存档；任务和奖励通过 ScriptableObject 配置，奖励领取去重。
-- 连穴施法：鼠标采样、路线匹配、穴位顺序及轨迹评分，提供评分解释、示范与回放；六条练功路线接入技能效果。
-- 回合战斗：共享纯 C# 规则、状态归约、技能构筑与动作反馈，逻辑判定与动画表现分离。
-- 联机：独立 TCP 服务端、多房间 1v1、服务端判定、请求去重、状态版本、断线恢复、再战与换构筑。
-- 编辑器交付：原工程中的 8 个构建场景、固定 UI、角色及 Prefab 已保存，可在 Hierarchy / Inspector 编辑。角色动作完整度及后续计划见验证记录。
-
-## 代码导览
-
-| 目录 | 内容 |
+| 技术 | 在项目中的用途 |
 | --- | --- |
-| `一笔江湖/Assets/_Game/Rules` | 可独立测试的连穴评分、战斗规则 |
-| `一笔江湖/Assets/_Game/NetworkShared` | 客户端与服务端共享协议及帧封装 |
-| `一笔江湖/Assets/_Game/App` | GameFramework 应用流程 |
-| `一笔江湖/Assets/_Game/Progression` | 任务、奖励和存档 |
-| `一笔江湖/Assets/_Game/Battle`、`UI`、`World` | 战斗表现、界面和场景交互 |
-| `Server`、`Tests` | 独立服务端及纯 C# 测试入口 |
-| `一笔江湖/Assets/ThirdParty/GameFramework` | GameFramework 源码及原 MIT 许可证 |
+| Unity 2022 LTS、C#、URP | 3D 场景、角色控制、游戏逻辑与画面渲染 |
+| GameFramework | 使用 Procedure、Fsm、Event 模块组织应用流程、状态切换和事件通知 |
+| UGUI、Animator、Prefab | 菜单、战斗 HUD、任务与行囊界面，以及角色动作表现；场景与界面可在编辑器直接修改 |
+| ScriptableObject | 配置技能、任务、奖励与表现资源，便于增删和调整内容 |
+| TCP Socket、独立 .NET 服务端 | 房间通信、服务端战斗判定、请求去重、状态版本和断线恢复 |
+| 共享 C# 规则、JSON | 客户端与服务端复用战斗规则，进行协议序列化及数据存取 |
+| Unity Test Framework | 评分、战斗、任务和场景资源的自动化测试 |
 
-## 服务端与测试
+画线评分与战斗规则放在独立的 C# 模块中，界面和动画根据结果更新。服务端负责联机对局的状态判定，客户端负责输入、展示和交互，避免将战斗结果绑定到动画播放时机。
 
-安装 .NET SDK **10.0.401** 后，在仓库根目录运行：
+## 运行试玩
+
+下载并**完整解压** Windows 试玩包，双击 `YibiJianghu.exe`。无需安装 Unity 或 .NET；请保留旁边的文件夹和 DLL。
+
+| 操作 | 按键 |
+| --- | --- |
+| 移动 / 奔跑 | WASD / Shift |
+| 交谈 / 开启宝匣 | E / F |
+| 行囊 / 任务手札 | Tab / J |
+| 调整镜头距离 | 鼠标滚轮 |
+| 连穴施法 | 选择技能 → 按住左键依次连穴 → 松开查看评分 → 确认 |
+
+### 同机双人对战
+
+1. 运行试玩包中的 `Start-Local-1v1.cmd`，启动本地服务端和两个客户端。
+2. 两端进入“双人论武”，使用地址 `127.0.0.1`、端口 `7777`。
+3. 一端创建房间，另一端输入房号加入，随后开始对战。
+4. 试玩结束后关闭两个客户端和服务端窗口。已有服务端运行时不要重复启动。
+
+仓库不提供公网服务器。目前联机测试使用同一台电脑上的两个独立客户端，跨设备连接需另行配置地址并测试。
+
+## 打开工程
+
+使用 **Unity 2022.3.62f3c1**，在 Unity Hub 中打开仓库内的 `一笔江湖/` 目录。首次打开需要联网获取 Unity 官方包并导入素材，完成后打开：
+
+```text
+Assets/_Game/Scenes/MainMenu.unity
+```
+
+工程包含源代码、场景、Prefab、配置和使用到的美术资源，不包含 Library 缓存和历史构建。无需安装 Unity MCP 插件。
+
+### 代码位置
+
+```text
+一笔江湖/Assets/_Game/
+  App/           应用流程与 GameFramework 接入
+  Rules/         连穴评分与战斗规则
+  Network/       客户端网络连接
+  NetworkShared/ 共享协议与消息帧
+  Progression/   任务、奖励与存档
+  Battle/        战斗流程与表现
+  UI/、World/    界面和场景交互
+Server/          独立对战服务端
+Tests/           规则与网络测试
+```
+
+使用 .NET SDK **10.0.401** 可从仓库根目录启动源码服务端：
 
 ```powershell
-dotnet run --project Tests/RulesCheck --configuration Release
 dotnet run --project Server/GameServer --configuration Release -- 7777
 ```
 
-保持服务端运行，在另一个终端执行协议检查（测试会创建本地房间）：
+独立规则测试：
 
 ```powershell
-dotnet run --project Tests/NetworkCheck --configuration Release
-dotnet run --project Tests/NetworkLifecycle --configuration Release
+dotnet run --project Tests/RulesCheck --configuration Release
 ```
 
-Unity 专项测试可通过 Test Runner 在导入完成的工程中执行。历史自动化脚本的构建路径需按本机位置调整。这里没有部署公网服务。
+Unity 测试可在 Test Runner 中运行。当前下载工程已通过 132 项 EditMode 测试，独立规则检查通过 45 项；试玩包完成了页面切换及双客户端五局对战测试，包括延迟、响应恢复和再战。
 
-## 验证与边界
+## 资源说明
 
-阶段 D 原工程已通过 132 项 EditMode、50 项 PlayMode；最终练功配色修改后相关 16 项 PlayMode 再次通过。Windows 最终构建记录为 0 错误、0 警告。已运行应用导航、任务、完整战斗及同机两个独立客户端五局回归，覆盖延迟、丢响应恢复、再战和换构筑。
-
-这些结果属于阶段 D 原工程；不等同于两台物理电脑或公网验证。当前 NPC 部分只有待机，胜利动作暂用收势；完整声音特效、前台性能、多分辨率和真人手感验收仍待完善。不以历史后台运行数据宣称稳定 60 FPS。
-
-- [验证记录](Docs/阶段D验证记录.md)
-- [本次精简导出与发布包验证](Docs/发布包验证记录.md)：精简副本 132 项 EditMode、45 项规则检查和打包客户端五局双端回归通过。
-- [使用与讲解](Docs/阶段D使用与讲解.md)
-- [核心调用链与面试讲解](Docs/核心模块与面试讲解.md)
-- [后续计划](Docs/成熟作品重构方案.md)
-
-## 素材与许可
-
-工程包含作者提供的购买素材中实际引用的部分；仓库公开不授予这些素材的再分发或商用权。项目现存记录未附完整素材再分发许可，权利仍归原作者；请勿将其提取为素材包。第三方代码遵循各自保留的许可证；本项目原创代码未另行授予开源许可。
+GameFramework 保留原 MIT 许可证。美术资源来自购买素材，权利归原作者；本仓库不授予素材单独提取、再分发或商用的许可。
