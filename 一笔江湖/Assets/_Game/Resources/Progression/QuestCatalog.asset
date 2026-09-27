@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d3aa07dda3e8a047babad24a797836a, type: 3}
+  m_Name: QuestCatalog
+  m_EditorClassIdentifier: 
+  quests:
+  - {fileID: 11400000, guid: a318c13424ebd964380b93045fd83208, type: 2}
+  - {fileID: 11400000, guid: 354dff3d0badd874ca04ce278174f268, type: 2}
+  - {fileID: 11400000, guid: 96299aba7b54d684cb5d50c4cbc880cb, type: 2}
+  - {fileID: 11400000, guid: 013e80e1f30640a4fa6a1aaa87196276, type: 2}
+  - {fileID: 11400000, guid: 7c4462ee3722cc14c84172ad00aefcad, type: 2}
+  - {fileID: 11400000, guid: 35ed7dc6b73fefe4d82d7f98b053ee37, type: 2}
+  - {fileID: 11400000, guid: e21bbd9db77caf04dbe735801e9c5b37, type: 2}
+  legacyFactMappings:
+  - factKey: cache.count
+    achievementIds:
+    - cache-guiyun-1
+    - cache-guiyun-2
+    - cache-guiyun-3

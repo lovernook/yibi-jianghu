@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ceaf64e733d8148af95e45a33ee205, type: 3}
+  m_Name: huifeng
+  m_EditorClassIdentifier: 
+  stableId: huifeng
+  displayName: "\u56DE\u98CE\u8BC0"
+  description: "\u516D\u7A74\u56DE\u98CE \xB7 \u5F27\u7EBF\u7EC3\u4E60\n\u4FDD\u6301\u8FDE\u8D2F\uFF0C\u4E0D\u4EE5\u901F\u5EA6\u4E89\u9AD8\u5206\u3002"
+  radius: 0.045
+  nodes:
+  - {x: 0.2, y: 0.17}
+  - {x: 0.47, y: 0.25}
+  - {x: 0.76, y: 0.39}
+  - {x: 0.72, y: 0.6}
+  - {x: 0.48, y: 0.78}
+  - {x: 0.22, y: 0.85}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: "\u5F52\u4E91\u6674\u7A7A"
+  m_Shader: {fileID: 4800000, guid: b16fcc5fa59fe51448ebc2d079dd5817, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _CloudCover: 0.48
+    - _Wind: 0.002
+    m_Colors:
+    - _CloudColor: {r: 0.96, g: 0.94, b: 0.83, a: 1}
+    - _Horizon: {r: 0.73, g: 0.83, b: 0.83, a: 1}
+    - _SunDirection: {r: 0.3, g: 0.45, b: 0.8, a: 0}
+    - _Zenith: {r: 0.20999995, g: 0.42999998, b: 0.6399999, a: 1}
+  m_BuildTextureStacks: []

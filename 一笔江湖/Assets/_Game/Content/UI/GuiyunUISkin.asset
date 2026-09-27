@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b359e5fcdff3049ae7f0c714b43b3a, type: 3}
+  m_Name: GuiyunUISkin
+  m_EditorClassIdentifier: 
+  paperPanel: {fileID: 21300000, guid: ba5d68c8eba13484685e139cb34964b5, type: 3}
+  darkPanel: {fileID: 21300000, guid: 2ec0f1d9946678e4b87956228822288f, type: 3}
+  headerPattern: {fileID: 21300000, guid: 5be00bc987c6a8340a03fb9593b1ee54, type: 3}
+  button: {fileID: 21300000, guid: 54594cc3714956841b34a7a5764dd4c4, type: 3}
+  frame: {fileID: 21300000, guid: d829ef3e5e977b94cac12fb0714b4fbc, type: 3}
+  questIcon: {fileID: 21300000, guid: b39cf0cc01265fa4fade3a41447175ef, type: 3}
+  techniqueIcons:
+  - {fileID: 21300000, guid: 146e46627db56254d87712f3f016dc38, type: 3}
+  - {fileID: 21300000, guid: 15f4f8383b62cef4b9e6dd0c706777ee, type: 3}
+  - {fileID: 21300000, guid: f750ffebe8d70f6498686be8adcb6cd1, type: 3}
+  - {fileID: 21300000, guid: 73d9ee4ec2b5df443a7fcb64de5a61e4, type: 3}
+  - {fileID: 21300000, guid: d24c36baf9d2dc44fbf1788898ae15ad, type: 3}
+  - {fileID: 21300000, guid: b6fb9bf2a91b0ce43b48ec31742f393b, type: 3}
+  darkTint: {r: 1, g: 1, b: 1, a: 1}
+  paperTint: {r: 1, g: 0.97, b: 0.88, a: 1}
+  buttonTint: {r: 0.19, g: 0.28, b: 0.3, a: 1}
+  primaryTint: {r: 0.72, g: 0.55, b: 0.3, a: 1}
+  frameTint: {r: 0.8, g: 0.65, b: 0.38, a: 1}
+  lightText: {r: 0.97, g: 0.94, b: 0.83, a: 1}
+  inkText: {r: 0.1, g: 0.16, b: 0.17, a: 1}
+  mutedInkText: {r: 0.28, g: 0.32, b: 0.31, a: 1}
+  titleInkText: {r: 0.32, g: 0.2, b: 0.09, a: 1}
+  mutedLightText: {r: 0.72, g: 0.8, b: 0.78, a: 1}
+  highlighted: {r: 1, g: 0.94, b: 0.77, a: 1}
+  pressed: {r: 0.69, g: 0.78, b: 0.77, a: 1}
+  disabled: {r: 0.46, g: 0.49, b: 0.48, a: 1}
+  lockedCard: {r: 0.15, g: 0.17, b: 0.18, a: 1}
+  normalCard: {r: 0.23, g: 0.31, b: 0.32, a: 1}
+  selectedCard: {r: 0.48, g: 0.37, b: 0.2, a: 1}

@@ -1,0 +1,1 @@
+{"name":"Yibi.World","references":["Yibi.Rules","Yibi.GestureUI","Yibi.Battle","Yibi.Progression","Yibi.Network","Yibi.NetworkShared","Yibi.Animation","Yibi.App","Unity.ugui"],"autoReferenced":true}

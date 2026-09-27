@@ -1,0 +1,14 @@
+Server/**/bin/
+Server/**/obj/
+Tests/**/bin/
+Tests/**/obj/
+一笔江湖/Library/
+一笔江湖/Temp/
+一笔江湖/Logs/
+一笔江湖/UserSettings/
+.vs/
+.tools/
+*.user
+*.log
+一笔江湖/Captures/
+Builds/

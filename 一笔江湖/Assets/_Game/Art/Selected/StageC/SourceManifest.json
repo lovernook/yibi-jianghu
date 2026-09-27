@@ -1,0 +1,65 @@
+{
+    "note": "用户提供的本地购买资源。只精选 8 帧和 2 图标；不发布源文件。哈希不同的既有精选文件保留手工改动。未引入 Spine Runtime。",
+    "files": [
+        {
+            "source": "Assets/_Game/资源/C1738/1/lrsc1/images/daoguang111_0009.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/Effects/daoguang111_0009.png",
+            "sourceSha256": "570bee36485fa4fe9f6ecd79fc8047412502406be9fe5d7f96a57cea5f2728ca",
+            "selectedSha256": "570bee36485fa4fe9f6ecd79fc8047412502406be9fe5d7f96a57cea5f2728ca"
+        },
+        {
+            "source": "Assets/_Game/资源/C1738/1/lrsc1/images/daoguang111_0011.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/Effects/daoguang111_0011.png",
+            "sourceSha256": "1dc5876b42b4042e2dad9d10a8f0ead2986bea1d09df7668197d855df138cf02",
+            "selectedSha256": "1dc5876b42b4042e2dad9d10a8f0ead2986bea1d09df7668197d855df138cf02"
+        },
+        {
+            "source": "Assets/_Game/资源/C1738/1/lrsc1/images/daoguang111_0013.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/Effects/daoguang111_0013.png",
+            "sourceSha256": "13d5ff7542359c81c3fd65233bc8a7c16bcffee814ddf0cbf04d940db6ae6905",
+            "selectedSha256": "13d5ff7542359c81c3fd65233bc8a7c16bcffee814ddf0cbf04d940db6ae6905"
+        },
+        {
+            "source": "Assets/_Game/资源/C1738/1/lrsc1/images/daoguang111_0015.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/Effects/daoguang111_0015.png",
+            "sourceSha256": "5fa0bbb17ca1af38e2d74fece22ade252bb82297626f6f5b8c2d5ad931ca2daf",
+            "selectedSha256": "5fa0bbb17ca1af38e2d74fece22ade252bb82297626f6f5b8c2d5ad931ca2daf"
+        },
+        {
+            "source": "Assets/_Game/资源/C1738/1/lrsc1/images/daoguang111_0017.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/Effects/daoguang111_0017.png",
+            "sourceSha256": "4fe03a0ba6669d8ca239ad24828dc6a0100a9dc3e29f63d2cf65077178618b1b",
+            "selectedSha256": "4fe03a0ba6669d8ca239ad24828dc6a0100a9dc3e29f63d2cf65077178618b1b"
+        },
+        {
+            "source": "Assets/_Game/资源/C1738/1/lrsc1/images/daoguang111_0019.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/Effects/daoguang111_0019.png",
+            "sourceSha256": "3d9cd00f99043883e7a4f20ffe2e76376c11f996802241557c3c69bdcfb1409c",
+            "selectedSha256": "3d9cd00f99043883e7a4f20ffe2e76376c11f996802241557c3c69bdcfb1409c"
+        },
+        {
+            "source": "Assets/_Game/资源/C1738/1/lrsc1/images/daoguang111_0021.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/Effects/daoguang111_0021.png",
+            "sourceSha256": "2fd2d740976764cfbd07aa1094adf77cffb728610b4c3e906899c911878ea205",
+            "selectedSha256": "2fd2d740976764cfbd07aa1094adf77cffb728610b4c3e906899c911878ea205"
+        },
+        {
+            "source": "Assets/_Game/资源/C1738/1/lrsc1/images/daoguang111_0022.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/Effects/daoguang111_0022.png",
+            "sourceSha256": "dce43b450b0e14ee96f0a777b1fa25d36a8f5f04997ff33b2e8b4ac288e242b1",
+            "selectedSha256": "dce43b450b0e14ee96f0a777b1fa25d36a8f5f04997ff33b2e8b4ac288e242b1"
+        },
+        {
+            "source": "Assets/_Game/资源/C1869/UI/UI切图/Icon_Equip_Shield.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/UI/Shield.png",
+            "sourceSha256": "b86c9b3b64cc078d1e307fd5c042913377f2932d6776525d4e0b5aac848b1cbd",
+            "selectedSha256": "b86c9b3b64cc078d1e307fd5c042913377f2932d6776525d4e0b5aac848b1cbd"
+        },
+        {
+            "source": "Assets/_Game/资源/C1869/UI/UI切图/Icon_Fire.png",
+            "selected": "Assets/_Game/Art/Selected/StageC/UI/Burn.png",
+            "sourceSha256": "4e898ae627debe85ab80dfc9aaa02b5381a8e4c3462eb0ba09256ef108b9076c",
+            "selectedSha256": "4e898ae627debe85ab80dfc9aaa02b5381a8e4c3462eb0ba09256ef108b9076c"
+        }
+    ]
+}

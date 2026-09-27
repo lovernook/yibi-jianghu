@@ -1,0 +1,6 @@
+{
+  "name": "Yibi.Progression",
+  "rootNamespace": "Yibi.Progression",
+  "references": ["Yibi.Rules"],
+  "autoReferenced": true
+}

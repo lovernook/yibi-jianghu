@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6ceaf64e733d8148af95e45a33ee205, type: 3}
+  m_Name: dianxue
+  m_EditorClassIdentifier: 
+  stableId: dianxue
+  displayName: "\u70B9\u7A74\u6307"
+  description: "\u56DB\u7A74\u8D77\u52BF \xB7 \u6298\u7EBF\u5165\u95E8\n\u6CBF\u91D1\u8272\u7ECF\u8109\u4F9D\u6B21\u8FDE\u901A
+    1\u20144\u3002"
+  radius: 0.045
+  nodes:
+  - {x: 0.25, y: 0.16}
+  - {x: 0.68, y: 0.36}
+  - {x: 0.32, y: 0.62}
+  - {x: 0.72, y: 0.84}

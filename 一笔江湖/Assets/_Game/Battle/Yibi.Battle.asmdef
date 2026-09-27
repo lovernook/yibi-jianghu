@@ -1,0 +1,1 @@
+{"name":"Yibi.Battle","references":["Yibi.Rules","Yibi.GestureUI","Yibi.Network","Yibi.NetworkShared","Yibi.Animation","Yibi.Progression","Unity.ugui"],"autoReferenced":true}

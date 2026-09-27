@@ -1,0 +1,1 @@
+{"name":"Yibi.PlayModeTests","references":["Yibi.Core","Yibi.Rules","Yibi.GestureUI","Yibi.Battle","Yibi.World","Yibi.Network","Yibi.NetworkShared","Yibi.Animation","Yibi.App","Yibi.Progression","GameFramework","Unity.ugui"],"optionalUnityReferences":["TestAssemblies"],"autoReferenced":false}

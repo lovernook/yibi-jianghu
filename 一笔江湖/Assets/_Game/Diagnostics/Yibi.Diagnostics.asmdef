@@ -1,0 +1,1 @@
+{"name":"Yibi.Diagnostics","references":["Yibi.Rules","Yibi.GestureUI","Yibi.Battle","Yibi.Progression","Yibi.World","Yibi.Network","Yibi.NetworkShared","Yibi.Animation","Yibi.App","GameFramework","Unity.ugui"],"autoReferenced":true}

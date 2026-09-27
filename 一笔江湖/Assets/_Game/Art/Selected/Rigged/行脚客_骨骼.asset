@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f24b580b46badfb43b3fa9f5d282a78a, type: 3}
+  m_Name: "\u884C\u811A\u5BA2_\u9AA8\u9ABC"
+  m_EditorClassIdentifier: 
+  sourceMesh: {fileID: 4300000, guid: 34ab2c47b36234f4b916437ee473503e, type: 2}
+  material: {fileID: 2100000, guid: ca08d0db0afc3784cbdda48887052e52, type: 2}
+  joints:
+  - name: Hips
+    parent: -1
+    position: {x: 0, y: 1.25, z: 0.07}
+  - name: Spine
+    parent: 0
+    position: {x: 0, y: 1.48, z: 0.07}
+  - name: Chest
+    parent: 1
+    position: {x: 0, y: 1.77, z: 0.07}
+  - name: Neck
+    parent: 2
+    position: {x: 0, y: 2.04, z: 0.06}
+  - name: Head
+    parent: 3
+    position: {x: 0, y: 2.18, z: 0.06}
+  - name: LeftUpperArm
+    parent: 2
+    position: {x: 0.27, y: 1.92, z: 0.07}
+  - name: LeftForearm
+    parent: 5
+    position: {x: 0.44, y: 1.55, z: 0.08}
+  - name: LeftHand
+    parent: 6
+    position: {x: 0.53, y: 1.23, z: 0.13}
+  - name: RightUpperArm
+    parent: 2
+    position: {x: -0.27, y: 1.92, z: 0.07}
+  - name: RightForearm
+    parent: 8
+    position: {x: -0.44, y: 1.55, z: 0.08}
+  - name: RightHand
+    parent: 9
+    position: {x: -0.53, y: 1.23, z: 0.13}
+  - name: LeftUpperLeg
+    parent: 0
+    position: {x: 0.17, y: 1.23, z: 0.07}
+  - name: LeftLowerLeg
+    parent: 11
+    position: {x: 0.21, y: 0.68, z: 0.07}
+  - name: LeftFoot
+    parent: 12
+    position: {x: 0.22, y: 0.17, z: 0.07}
+  - name: RightUpperLeg
+    parent: 0
+    position: {x: -0.17, y: 1.23, z: 0.07}
+  - name: RightLowerLeg
+    parent: 14
+    position: {x: -0.21, y: 0.68, z: 0.07}
+  - name: RightFoot
+    parent: 15
+    position: {x: -0.22, y: 0.17, z: 0.07}
+  - name: RobeFront
+    parent: 0
+    position: {x: 0, y: 1.15, z: 0.23}
+  - name: RobeBack
+    parent: 0
+    position: {x: 0, y: 1.15, z: -0.14}
+  - name: RobeLeft
+    parent: 0
+    position: {x: 0.32, y: 1.15, z: 0.06}
+  - name: RobeRight
+    parent: 0
+    position: {x: -0.32, y: 1.15, z: 0.06}
+  armThreshold: 0.31
+  torsoCenterZ: 0.07
+  actionScale: 0.25

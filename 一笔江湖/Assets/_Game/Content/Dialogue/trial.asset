@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57218fb851ebf4b44b9702a3cc79db2c, type: 3}
+  m_Name: trial
+  m_EditorClassIdentifier: 
+  speaker: "\u542C\u98CE\u7891 \xB7 \u75BE\u884C\u8BD5\u70BC"
+  body: "\u4F9D\u6B21\u7A7F\u8FC7\u4E94\u4E2A\u4EAE\u8D77\u7684\u6807\u8BB0\uFF0C\u5728\u65F6\u9650\u5185\u62B5\u8FBE\u7EC8\u70B9\u3002\n\u6309\u4F4F\u5DE6
+    Shift \u5954\u8DD1\uFF0C\u6CBF\u5317\u4FA7\u5C0F\u5F84\u524D\u884C\u3002\n\n\u7559\u610F\u4E0A\u65B9\u7684\u5012\u8BA1\u65F6\u4E0E\u4E0B\u4E00\u5904\u91D1\u8272\u6807\u8BB0\u3002"
+  acceptLabel: "\u5F00\u59CB\u8BD5\u70BC"
+  blockedBody: 
+  requiredQuestIds: []

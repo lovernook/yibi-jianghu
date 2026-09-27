@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dee1044055987a40b3c2c0436345ae8, type: 3}
+  m_Name: chapter
+  m_EditorClassIdentifier: 
+  stableId: guiyun.chapter
+  title: "\u5F52\u4E91\u5377\u6210"
+  description: "\u5B8C\u6210\u521D\u8BC6\u7ECF\u8109\u3001\u7AF9\u6797\u8BD5\u5251\u3001\u542C\u98CE\u75BE\u884C\u4E0E\u95EE\u5FC3\u4E00\u6218\u3002"
+  targetId: inventory
+  legacyAchievementId: chapter-one
+  order: 50
+  isMain: 1
+  autoClaim: 1
+  prerequisites:
+  - {fileID: 11400000, guid: a318c13424ebd964380b93045fd83208, type: 2}
+  - {fileID: 11400000, guid: 354dff3d0badd874ca04ce278174f268, type: 2}
+  - {fileID: 11400000, guid: 96299aba7b54d684cb5d50c4cbc880cb, type: 2}
+  - {fileID: 11400000, guid: 013e80e1f30640a4fa6a1aaa87196276, type: 2}
+  objectives: []
+  reward: {fileID: 11400000, guid: c2a6d67cd8f2a1e42a612955590b119e, type: 2}

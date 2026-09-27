@@ -1,0 +1,8 @@
+<linker>
+  <!-- GameFrameworkEntry resolves these internal managers by reflected name. -->
+  <assembly fullname="GameFramework">
+    <type fullname="GameFramework.Fsm.FsmManager" preserve="all" />
+    <type fullname="GameFramework.Procedure.ProcedureManager" preserve="all" />
+    <type fullname="GameFramework.Event.EventManager" preserve="all" />
+  </assembly>
+</linker>

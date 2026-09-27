@@ -1,0 +1,1 @@
+{"name":"Yibi.EditModeTests","references":["Yibi.Core","Yibi.Rules","Yibi.GestureUI","Yibi.NetworkShared","Yibi.Network","Yibi.Battle","Yibi.Animation","Yibi.Progression"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"],"autoReferenced":false}

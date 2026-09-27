@@ -1,0 +1,114 @@
+[
+  {
+    "id": "PlayerSwordsman",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\敌人.zip",
+    "entry": "����/M_Normal_Swords_Chuwanchun_001/M_Normal_Swords_Chuwanchun_001.fbx",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\PlayerSwordsman\\M_Normal_Swords_Chuwanchun_001.fbx",
+    "bytes": 1668864,
+    "sha256": "7A96B81F3AD566125AFC86DF4F6576DFCF946C37B0B70AF47459EE1F9EBDD841"
+  },
+  {
+    "id": "PlayerSwordsman",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\敌人.zip",
+    "entry": "����/M_Normal_Swords_Chuwanchun_001/M_Normal_Swords_Chuwanchun_001_D.png",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\PlayerSwordsman\\M_Normal_Swords_Chuwanchun_001_D.png",
+    "bytes": 352505,
+    "sha256": "51B19468BB20992BFFA34E969257CD39CD4E90A66C640CB8F26C052D91862FC0"
+  },
+  {
+    "id": "SwordMaster",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\敌人.zip",
+    "entry": "����/M_Normal_Swords_chongxu_001/M_Normal_Swords_chongxu_001.fbx",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\SwordMaster\\M_Normal_Swords_chongxu_001.fbx",
+    "bytes": 1665200,
+    "sha256": "CE554A25E3806630CF80244A294123C561CFBD8081145B5FDAE0E84A9C44884E"
+  },
+  {
+    "id": "SwordMaster",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\敌人.zip",
+    "entry": "����/M_Normal_Swords_chongxu_001/M_Normal_Swords_chongxu_001_D.png",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\SwordMaster\\M_Normal_Swords_chongxu_001_D.png",
+    "bytes": 230209,
+    "sha256": "9845767370AAABB7690C8DCCC7EAAE6DB92160946EC73499A9337A3680323F65"
+  },
+  {
+    "id": "Bandit",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\敌人.zip",
+    "entry": "����/M_Strong_Knife_Qiangdao_001/M_Strong_Knife_Qiangdao_001.fbx",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\Bandit\\M_Strong_Knife_Qiangdao_001.fbx",
+    "bytes": 1549584,
+    "sha256": "F3260B5A3C4C3148D7C580331A2A8B0343467702706983C468ED1301589BD49A"
+  },
+  {
+    "id": "Bandit",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\敌人.zip",
+    "entry": "����/M_Strong_Knife_Qiangdao_001/M_Strong_Knife_Qiangdao_001_D.png",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\Bandit\\M_Strong_Knife_Qiangdao_001_D.png",
+    "bytes": 406747,
+    "sha256": "D7033C37252B230C57A9B038DE9955F7270BF10245A86F907C41C6ED84B97FD9"
+  },
+  {
+    "id": "TrainingDummy",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\敌人.zip",
+    "entry": "����/Muren_001/Muren_001.fbx",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\TrainingDummy\\Muren_001.fbx",
+    "bytes": 1872768,
+    "sha256": "422213BD8B4BD78BCE20C8EEEE066C8C5340B8D313D2AC3BAA508D59BAF6174F"
+  },
+  {
+    "id": "TrainingDummy",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\敌人.zip",
+    "entry": "����/Muren_001/Muren_D.png",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\TrainingDummy\\Muren_D.png",
+    "bytes": 210989,
+    "sha256": "382EAEDB9BD7F438F312D9503FBFA50408C2A8465B0951191079F8992913316C"
+  },
+  {
+    "id": "Physician",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\NPC角色.zip",
+    "entry": "NPC��ɫ/N_M_Normal_Kongshou_daidafu_001/N_M_Normal_Kongshou_daidafu_001.fbx",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\Physician\\N_M_Normal_Kongshou_daidafu_001.fbx",
+    "bytes": 563984,
+    "sha256": "0716911ECDC19A0BBC764646A3BCF2A599E47B5DBC807D87248FA97D2B832EF3"
+  },
+  {
+    "id": "Physician",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\NPC角色.zip",
+    "entry": "NPC��ɫ/N_M_Normal_Kongshou_daidafu_001/N_M_Normal_kongshou_daidafu_001_D.png",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\Physician\\N_M_Normal_kongshou_daidafu_001_D.png",
+    "bytes": 184292,
+    "sha256": "A584161F3CBEDF754DC33FB579D744635C1BD0FBCC2F63B8B1ADA832CAF28A7F"
+  },
+  {
+    "id": "Innkeeper",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\NPC角色.zip",
+    "entry": "NPC��ɫ/N_M_Normal_kongshou_kezhanlaoban_001/N_M_Normal_kongshou_kezhanlaoban_001.fbx",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\Innkeeper\\N_M_Normal_kongshou_kezhanlaoban_001.fbx",
+    "bytes": 603952,
+    "sha256": "0E4B7302DAD48061C1BA6277ECF0BBAAB9881A4B1B367B385B9D5EC8AC40EFED"
+  },
+  {
+    "id": "Innkeeper",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\NPC角色.zip",
+    "entry": "NPC��ɫ/N_M_Normal_kongshou_kezhanlaoban_001/N_M_Normal_kongshou_kezhanlaoban_D.png",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\Innkeeper\\N_M_Normal_kongshou_kezhanlaoban_D.png",
+    "bytes": 212355,
+    "sha256": "7B12FDA32A36DC04E6002648E4BA9F00903C5014291DA957398E25B7ECA60DF4"
+  },
+  {
+    "id": "Swordswoman",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\NPC角色.zip",
+    "entry": "NPC��ɫ/N_F_Normal_kongshou_emeidashijie_001/N_F_Normal_kongshou_emeidashijie_001.fbx",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\Swordswoman\\N_F_Normal_kongshou_emeidashijie_001.fbx",
+    "bytes": 747968,
+    "sha256": "0223585BFB3FFDA995A1063945FA5216C24645E36CCCA3C33111619C3ED4B645"
+  },
+  {
+    "id": "Swordswoman",
+    "archive": "一笔江湖\\Assets\\_Game\\资源\\3D模型武侠风游戏角色unity3d人物带骨骼ue4美术FBX格式素材动作1\\角色258-国风带动作fbx\\NPC角色.zip",
+    "entry": "NPC��ɫ/N_F_Normal_kongshou_emeidashijie_001/N_F_Normal_kongshou_emeidashijie_001_D.png",
+    "destination": "一笔江湖\\Assets\\_Game\\Art\\Selected\\StageD\\Characters\\Swordswoman\\N_F_Normal_kongshou_emeidashijie_001_D.png",
+    "bytes": 264325,
+    "sha256": "42EF48C9FE429BCCC8D37400E07E036A5F0DD037EBE946A7110C6F0D0776C511"
+  }
+]

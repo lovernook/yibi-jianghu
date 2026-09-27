@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dee1044055987a40b3c2c0436345ae8, type: 3}
+  m_Name: final
+  m_EditorClassIdentifier: 
+  stableId: guiyun.final
+  title: "\u95EE\u5FC3\u4E00\u6218"
+  description: "\u901A\u8FC7\u7AF9\u6797\u4E0E\u75BE\u884C\u8003\u9A8C\u540E\uFF0C\u524D\u5F80\u95EE\u5FC3\u53F0\u6311\u6218\u9057\u8FF9\u5B88\u536B\u3002"
+  targetId: final
+  legacyAchievementId: first-win-1
+  order: 40
+  isMain: 1
+  autoClaim: 1
+  prerequisites: []
+  objectives:
+  - factKey: win.1
+    requiredValue: 1
+    label: "\u6218\u80DC\u9057\u8FF9\u5B88\u536B"
+  reward: {fileID: 11400000, guid: 5592ad30177dff540850915ee0a0182b, type: 2}

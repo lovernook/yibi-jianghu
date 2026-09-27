@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dee1044055987a40b3c2c0436345ae8, type: 3}
+  m_Name: caches
+  m_EditorClassIdentifier: 
+  stableId: guiyun.caches
+  title: "\u8C37\u4E2D\u5BFB\u73CD"
+  description: "\u63A2\u8BBF\u5F52\u4E91\u8C37\u4E09\u5904\u6C5F\u6E56\u9057\u5323\uFF1B\u5BFB\u9F50\u540E\u5728\u6B64\u9886\u53D6\u989D\u5916\u788E\u7247\u3002"
+  targetId: 
+  legacyAchievementId: 
+  order: 70
+  isMain: 0
+  autoClaim: 0
+  prerequisites: []
+  objectives:
+  - factKey: cache.count
+    requiredValue: 3
+    label: "\u5F00\u542F\u6C5F\u6E56\u9057\u5323"
+  reward: {fileID: 11400000, guid: 46cb4eeac16ca1b49b5b290eae087d91, type: 2}

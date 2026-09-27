@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3e3e09494070414fb49ad99886a7c62, type: 3}
+  m_Name: Bandit_Motion
+  m_EditorClassIdentifier: 
+  locomotionState: Locomotion
+  speedParameter: Speed
+  returnTransitionSeconds: 0.16
+  speedDampingSeconds: 0.12
+  maximumSpeed: 8
+  actions:
+  - id: Attack
+    stateName: Attack
+    transitionSeconds: 0.09
+    durationSeconds: 1.3000001
+    holdUntilReset: 0
+  - id: Cast
+    stateName: Cast
+    transitionSeconds: 0.09
+    durationSeconds: 1.4
+    holdUntilReset: 0
+  - id: Hit
+    stateName: Hit
+    transitionSeconds: 0.09
+    durationSeconds: 0.6333334
+    holdUntilReset: 0
+  - id: Victory
+    stateName: Victory
+    transitionSeconds: 0.09
+    durationSeconds: 4.6000004
+    holdUntilReset: 1
+  - id: Defeat
+    stateName: Defeat
+    transitionSeconds: 0.09
+    durationSeconds: 1.8666668
+    holdUntilReset: 1

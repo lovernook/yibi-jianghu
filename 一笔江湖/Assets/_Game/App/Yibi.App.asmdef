@@ -1,0 +1,6 @@
+{
+  "name": "Yibi.App",
+  "rootNamespace": "Yibi.App",
+  "references": ["GameFramework", "Unity.ugui"],
+  "autoReferenced": true
+}
